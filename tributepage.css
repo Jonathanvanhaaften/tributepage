@@ -1,52 +1,47 @@
-
-:root
-{
+:root {
   --color-background: black;
 }
 body {
-   
-    background-color:var(--color-background);
-    color: bisque;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #main {
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
-    justify-content: center;
-    text-align: center;
-    margin: auto;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
   /*  background-color: blue; */
 }
-  #title {
-   justify-content: center;
-   text-align: center;
- }
-
+#title {
+  justify-content: center;
+  text-align: center;
+}
 
 #img-div {
   margin: auto;
   padding: 0;
-/*background-color: aqua; */
+  /*background-color: aqua; */
 
- width: 25%;
- height: 50%; 
-justify-content: center;
-text-align: center;
+  width: 25%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
 }
-#image { 
+#image {
   display: block;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0, 0, 0 ,0;
-    padding: 0,0,0,0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0, 0, 0, 0;
+  padding: 0, 0, 0, 0;
 }
-#tribute-info
-{
-list-style-type: none;
-text-align: center;
-margin-top: 50px;
+#tribute-info {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 50px;
 }
 li {
   margin-top: 30px;
@@ -60,7 +55,10 @@ p {
   color: ivory;
 }
 
-#tribute-link:hover 
-  {color: gray;
-  transform: translate(5px)
+#tribute-link:hover {
+  color: gray;
+  transform: translate(5px);
+}
+ul {
+  padding: 0;
 }
